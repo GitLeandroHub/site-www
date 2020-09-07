@@ -73,9 +73,9 @@ int runTwice(int x, Function f) {
   return x;
 }
 main() {
-  print("4 times two is ${timesTwo(4)}");
-  print("4 times four is ${timesFour(4)}");
-  print("2 x 2 x 2 is ${runTwice(2, timesTwo)}");
+  print("(x*2) is ${timesTwo(4)}");
+  print("(x*2)*(2) is ${timesFour(4)}");
+  print("(x*2)+(x*2) is ${runTwice(2, timesTwo)}");
 }
 '''
     .trim();
